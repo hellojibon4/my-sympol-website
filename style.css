@@ -1,41 +1,71 @@
-p{
-    color: rgb(11, 5, 0);
-    background-color: rgb(161, 155, 145);
-    padding: 10px;
-    margin: 20px;
-    border: 10px;
-    border-radius: 10px;
-    text-align: justify;
-    font-weight: bold;
-}
+
 .sympol{
     font-size: 20px;
-    background-color: beige;
+    background-color: #ccc;
     border-radius: 5px solid ;
     border: 3px solid rgb(5, 3, 0);
-    border-radius: 5px;
+    border-radius: 20px;
     padding:5px;
     display: inline-block;
     font-weight: bolder;
+    
 }
 .my{
     text-align: center;
     font-weight: bold;
 }
+
+/* p tag all style */
+p{
+    color: rgb(11, 5, 0);
+    padding: 20px;
+    margin: 20px;
+    text-align: justify;
+    font-weight: bold;
+    box-shadow: 0px 0px 5px rgba(0,0,0,1);
+    background-color: #ccc;
+    border-radius: 20px;
+}
+
+
+/* user login form */
 .user{
     font-size: 20px;
-    background-color: rgb(123, 150, 173);
-    border: 5px solid rgb(5, 3, 0);
-    border-radius: 6px;
+    /* background-color: rgb(123, 150, 173); */
+    border: 1px solid rgb(5, 3, 0);
+    border-radius: 20px;
     padding: 5px;
     display: inline-block;
     text-align: center;
+    /* display: block; */
+    margin-left: auto;
+    margin-right: auto;
+   
 }
 #user{
     text-align: center;
+    box-shadow: 0px 0px 10px rgba(0,0,0,1);
+    background-color: #ccc;
+    border-radius: 20px;
+    margin: 20px 400px ;
 }
+
+/* imag center  */
 .img{
     width: 120px;
     height: 120px;
     text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form{
+    border: 10px solid #ccc;
+    padding: 20px;
+    margin: 1px 340px auto;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,1);
+    background-color: #ccc;
+    text-align: right;
 }
